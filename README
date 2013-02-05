@@ -1,0 +1,49 @@
+This is Perl module Compiler::Tools::UselessModuleDetector.
+
+NAME
+
+Compiler::Tools::UselessModuleDetector - detect useless modules.
+
+SYNOPSIS
+
+use Compiler::Tools::UselessModuleDetector;
+
+INSTALLATION
+
+Install cpanm (App::cpanminus) and then run the following command to install
+Lexer:
+
+    $ cpanm Compiler::Tools::UselessModuleDetector
+
+If you get the distribution, unpack it and build it as per the usual:
+
+    $ tar xzf Compiler-Tools-UselessModuleDetector{version}.tar.gz
+    $ cd Compiler-Tools-UselessModuleDetector{version}
+    $ perl Makefile.PL
+    $ make && make test
+
+Then install it:
+
+    $ make install
+
+If you want to install it from the repository, you must install authoring
+tools.
+
+    $ cpanm < author/requires.cpanm
+
+DOCUMENTATION
+
+Compiler::Tools::UselssModuleDetector documentation is available as in POD. So you can do:
+
+    $ perldoc Compiler::Tools::UselessModuleDetector
+
+to read the documentation online with your favorite pager.
+
+RESOURCE
+
+LICENSE AND COPYRIGHT
+
+Copyright (c) 2012, Masaaki, Goshima (goccy). All rights reserved.
+
+This library is free software; you can redistribute it and/or modify
+it under the same terms as Perl itself.
