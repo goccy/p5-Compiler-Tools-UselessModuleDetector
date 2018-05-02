@@ -50,7 +50,7 @@ sub __detect {
     $module_names{$_->{name}} = $_->{args}
         foreach(grep {!exists $self->{ignore}->{$_->{name}}} @$modules);
     my $tokens = $lexer->tokenize($script);
-    foreach my $token (@$$tokens) {
+    foreach my $token (@$tokens) {
         if ($token->{type} == Compiler::Lexer::TokenType::T_Class ||
             $token->{type} == Compiler::Lexer::TokenType::T_Namespace) {
             my $v = first_value { $token->{data} =~ /$_/ } keys %module_names;
